@@ -1,0 +1,46 @@
+#content {
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+nav a, #hero-msg h1, #hero-msg h4, .button-box, main section, section {
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+body, .book, .join, .msg {
+    background-color:#a3bbad;
+}
+#background {
+    background-color:#a3bbdd;
+}
+
+footer, header {
+ background-color: rgb(36, 35, 35);
+}
+nav a:hover, .book:hover, .join:hover,footer a:hover{
+ background-color: #05668d;
+ color: #d9c2a3;
+}
+nav a, h4, .home-title, .book, .join, .msg h2, .msg p, {
+    color: black;
+}
+ nav a, footer h3, footer a { 
+     color: lightgray;
+ }
+.icon, .logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+nav a, .book, .join, footer a {
+    text-decoration: none;  
+}
+footer h3 a:hover {
+    text-decoration: underline;
+}
