@@ -13,9 +13,21 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main section, section {
 
 body, .book, .join, .msg {
     background-color:#a3bbad;
+    
+}
+body{
+    background-color: white;
+    font-family:Coda, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding:0;
+}
+h2{
+    margin: 0;
 }
 #background {
-    background-color:#a3bbdd;
+    background-color:#a3bbad;
+    margin-bottom: 100px;
 }
 
 footer, header {
@@ -23,16 +35,69 @@ footer, header {
 }
 nav a:hover, .book:hover, .join:hover,footer a:hover{
  background-color: #05668d;
- color: #d9c2a3;
+ color:#d9c2a3;
 }
-nav a, h4, .home-title, .book, .join, .msg h2, .msg p, {
-    color: black;
+nav a, h4, .home-title, .book, .join, .msg h2, .msg p{
+        color: black;
+        font-size: 2em   
+}
+.home-title{
+    font-family:Coda, Helvetica, sans-serif;
+    font-size: 4em;
+    color: #6b2737;
+    margin-top: 10px;;
+}
+.book, .join{
+    background-color: #d9c2a3;
+    color:#6b2737;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img{
+    border: 10px #6b2737 solid;
+}
+    
+.rapids-card{
+        margin: 10px 0;
+        /* border: 10px #6b2737 solid;       */
+        
+}
+.rivers-card{
+      margin: 200px 0;
+        
+}
+.camping-card{
+       margin: 200px 0;
+    
+}
+main section img{
+    box-sizing: border-box;
+}
+.msg h2{
+    background-color:#6b2737;
+    line-height: 1.5em;
+    color: white;
+    padding-bottom: 35px;
+   
+}
+.msg p{
+    font-size: 2em;
+    color: #032634;
+    padding-top: 20px;
+
 }
  nav a, footer h3, footer a { 
      color: lightgray;
  }
 .icon, .logo {
     width: 80px;
+    padding-top: 10px;
+}
+#logo-link {
+    padding-top: 5px;
 }
 
 #hero-img {
@@ -41,6 +106,15 @@ nav a, h4, .home-title, .book, .join, .msg h2, .msg p, {
 nav a, .book, .join, footer a {
     text-decoration: none;  
 }
-footer h3 a:hover {
+
+.social img{
+    padding-top: 15px;
+}
+footer, h3 a:hover {
     text-decoration: underline;
+
+}
+footer{
+    padding: 25px 50px;
+    margin-top: 200px;
 }
