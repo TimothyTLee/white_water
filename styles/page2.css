@@ -1,0 +1,31 @@
+#carousel {
+  background-color: blue;
+  width: 75%;
+  height: 400px;
+}
+#banner {
+  display: flex;
+  justify-content: center;
+}
+img.temp {
+  background-color: aqua;
+  width: 100%;
+  height: 400px;
+}
+section#articles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+  width: 75%;
+}
+.river-details {
+  text-align: left;
+}
+
+.river-options-card {
+  width: 350px;
+}
+#body-content {
+  display: flex;
+  justify-content: center;
+}

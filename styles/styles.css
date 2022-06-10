@@ -203,15 +203,20 @@ nav {
   grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
-.carg-img {
+.card-img {
   border: 10px solid #d9c2a3;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px #6f7364;
 }
 
-.card-img hover {
+.card-img:hover {
   opacity: 0.6;
   transform: scale(1.1);
+}
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 @media screen and (max-width: 900px) {
   #hero,
@@ -243,8 +248,7 @@ nav {
   .rivers-card,
   .camping-card,
   .rapids-card {
-    margin: 50px auto;
-    width: 60%;
+    margin: 2000px 0;
   }
   #background {
     display: none;
