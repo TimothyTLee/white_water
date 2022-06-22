@@ -1,5 +1,5 @@
 #carousel {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 #banner {
   display: flex;
@@ -26,4 +26,19 @@ section#articles {
 #body-content {
   display: flex;
   justify-content: center;
+}
+.banner-title {
+  font-family: Coda, Helvetica, sans-serif;
+  font-size: 4em;
+  color: #6b2737;
+  margin-top: 10px;
+}
+.Adventure-tana-river {
+  font-size: 2em;
+}
+.Adventure-nenana-river {
+  font-size: 2em;
+}
+.Adventure-upper-nenana-river {
+  font-size: 2em;
 }
